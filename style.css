@@ -1,0 +1,75 @@
+h1 {
+  color: rgb(26, 115, 232);
+}
+
+h1.secundario {
+  color: rgb(15, 129, 42);
+}
+
+h1.acento {
+  color: rgb(255, 179, 0);
+}
+
+h1 { 
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 450;
+  letter-spacing: 1px;
+  padding: 23px;
+}
+/* ============================
+   1) CONFIGURACIÓN GENERAL
+   ============================ */
+body {
+  /* Fondo sólido (opcional) */
+  background-color: #f2f2f2;
+
+  /* Fondo con imagen (tu foto de jabones artesanales) */
+  background-image: url("imagenes/jabones-artesanales.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;      /* La imagen cubre toda la pantalla */
+  background-position: center; /* Centrada */
+  background-attachment: fixed; /* Efecto tipo parallax */
+  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(5px); /* efecto vidrio */
+}
+body {
+  background-image: url("https://www.consumer.es/app/uploads/2019/07/img_jabones-artesanos-salud-hd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+}
+.boton {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #ff7f50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background-color: #ff5722;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
